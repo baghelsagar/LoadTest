@@ -1,5 +1,5 @@
 echo "Transafering Data files to Respected Slave Machine"
-
+cd ../TestData
 i=1
 
 while read line; do

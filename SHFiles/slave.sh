@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Starting Remote Engine On Every Slave Machine\n"
-
+cd ../IPFiles
 count=1
 while read line1
     do 

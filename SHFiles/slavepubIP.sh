@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "Extracting public IP of slave machines"
+cd ../IPFiles
 count=1
 while read line1
     do 

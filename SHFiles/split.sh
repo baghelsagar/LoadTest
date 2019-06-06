@@ -27,7 +27,7 @@ done
 }
 
 echo "Splitting Data Files"
-
+cd ../TestData
 find . -name "*.txt" | while read f; do funn $(echo ${f} | sed -e 's/.\///g') $1; done
 
 echo "Completed Splitting Data files, Files are in folders \"SlaveDir\" followed by Serial number"
